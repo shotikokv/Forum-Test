@@ -28,6 +28,7 @@ class ThreadController extends Controller
         $threads=Thread::filter($filters)->paginate(2);
 
         return view('thread.index', compact('threads'));
+
     }
 
     /**
