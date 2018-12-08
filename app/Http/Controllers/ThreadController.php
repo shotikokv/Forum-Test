@@ -14,7 +14,7 @@ class ThreadController extends Controller
     {
         return $this->middleware('auth')->except('index');
     }
-ssssss
+
 
     /**
      * Display a listing of the resource.
