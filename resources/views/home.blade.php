@@ -1,17 +1,17 @@
-@extends('layouts.app')
+@extends('layouts.front')
 
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    You are logged in!
-                </div>
-            </div>
+@section('banner')
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Kepler forum</h1>
+            <p>Stack.Com</p>
+            <p>
+                <a class="btn btn-primary btn-lg">Kepler</a>
+            </p>
         </div>
     </div>
-</div>
+@endsection
+@section('heading',"Threads")
+@section('content')
+    {{--@include('thread.partials.thread-list')--}}
 @endsection
