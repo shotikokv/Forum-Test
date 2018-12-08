@@ -13,5 +13,5 @@
 @endsection
 @section('heading',"Threads")
 @section('content')
-    {{--@include('thread.partials.thread-list')--}}  Post List
+    {{--@include('thread.partials.thread-list')--}}
 @endsection
