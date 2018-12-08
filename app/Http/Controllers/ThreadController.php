@@ -24,7 +24,7 @@ class ThreadController extends Controller
      * @internal param Request $request
      */
     public function index(ThreadFilters $filters)
-    {
+    {sss
         $threads=Thread::filter($filters)->paginate(2);
 
         return view('thread.index', compact('threads'));
