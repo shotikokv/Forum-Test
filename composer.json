@@ -14,9 +14,9 @@
         "pusher/pusher-php-server": "~3.0"
     },
     "require-dev": {
+        "filp/whoops": "^2.3",
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
-        "filp/whoops": "~2.0",
         "phpunit/phpunit": "~6.0"
     },
     "autoload": {
